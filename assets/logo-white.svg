@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+
+    <!--
+        Outer Circle
+        cx="50" cy="50" centers it in the 100x100 viewBox.
+        r="45" leaves a consistent margin around the mark.
+    -->
+    <circle
+        cx="50"
+        cy="50"
+        r="45"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="1.5"
+    />
+
+    <!--
+        Vertical Line (Tapered)
+        Runs continuously behind the center circle.
+    -->
+    <polygon
+        points="50,20 52.5,50 50,80 47.5,50"
+        fill="#ffffff"
+    />
+
+    <!--
+        Horizontal Line (Tapered)
+        Runs continuously behind the center circle.
+    -->
+    <polygon
+        points="20,50 50,47.5 80,50 50,52.5"
+        fill="#ffffff"
+    />
+
+    <!--
+        Center Circle
+        Its full outside diameter is exactly 5 units, matching
+        the cross thickness at the center so the edge is flush.
+    -->
+    <circle
+        cx="50"
+        cy="50"
+        r="2"
+        fill="#1d2933"
+        stroke="#ffffff"
+        stroke-width="1"
+    />
+
+</svg>
